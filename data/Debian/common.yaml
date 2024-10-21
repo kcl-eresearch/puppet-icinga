@@ -5,21 +5,21 @@ icinga::repos:
     release: 'icinga-%{facts.os.distro.codename}'
     repos: main
     key: 
-      id: F51A91A5EE001AA5D77D53C4C6E319C334410682
+      id: DD3AF6198ED000B4C0B73956CC116F55AA7F2382
       source: http://packages.icinga.com/icinga.key
   'icinga-testing-builds':
     location: http://packages.icinga.com/debian
     release: 'icinga-%{facts.os.distro.codename}-testing'
     repos: main
     key: 
-      id: F51A91A5EE001AA5D77D53C4C6E319C334410682
+      id: DD3AF6198ED000B4C0B73956CC116F55AA7F2382
       source: http://packages.icinga.com/icinga.key
   'icinga-snapshot-builds':
     location: http://packages.icinga.com/debian
     release: 'icinga-%{facts.os.distro.codename}-snapshots'
     repos: main
     key: 
-      id: F51A91A5EE001AA5D77D53C4C6E319C334410682
+      id: DD3AF6198ED000B4C0B73956CC116F55AA7F2382
       source: http://packages.icinga.com/icinga.key
   'netways-plugins-release':
     location: http://packages.netways.de/plugins/debian
